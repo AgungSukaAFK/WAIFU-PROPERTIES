@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dist/style.css">
+    <title>Cloning web pa dika</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+    </style>
+
+</head>
+<body>
+    <div>
+        <div id="content" class="min-h-screen w-screen bg-pink-200 relative flex flex-row items-center justify-center">
+            <header class="absolute flex w-screen h-20 top-0 z-10 bg-pink-100 bg-opacity-40 shadow-md">
+                <div class="logo w-48  pr-6 h-full flex items-center justify-end lg:pr-0">
+                    <h2 id="AOTSUKASA" class="text-2xl font-bold text-green-700 lg:text-3xl">Ao X Tsukasa</h2>
+                </div>
+                <div class="flex flex-row justify-end items-center pr-4 ml-auto w-40 h-[80%] my-auto lg:w-full">
+                    <div class="relative  lg:w-full">
+                        <button id="hamburger" class="hover:drop-shadow-md lg:hidden">
+                            <span class="hamburger-strip"></span>
+                            <span class="hamburger-strip"></span>
+                            <span class="hamburger-strip"></span>
+                        </button>
+                        <nav id="navigation" class="hidden absolute right-10 top-0 w-40 h-auto py-2 bg-pink-100 bg-opacity-70 rounded-lg shadow-md border-r-4 border-green-600 flex-col justify-between lg:flex-row lg:flex lg:border-none lg:-top-7 lg:w-[60%] lg:px-10 lg:bg-opacity-0 lg:shadow-none">
+                            <button class="my-1">
+                                <a href="">Option 1</a>
+                            </button>
+                            <button class="my-1">
+                                <a href="">Option 2</a>
+                            </button>
+                            <button class="my-1">
+                                <a href="">Option 3</a>
+                            </button>
+                            <button class="my-1">
+                                <a href="">Option 4</a>
+                            </button>
+                            <button class="my-1">
+                                <a href="">Option 5</a>
+                            </button>
+                        </nav>
+                    </div>
+                </div>
+            </header>
+            <div id="hero" class="container mx-auto mt-10 flex flex-col justify-center text-center lg:px-60 lg:flex-row lg:flex-wrap md:mt-0">
+                <!-- // buletan -->
+                <span class="absolute -top-28 -left-10 -z-0 w-60 h-80 rounded-full border-4 shadow-xl blur-sm border-white"></span>
+                <div id="hero-text" class="flex items-center justify-center flex-col w-full p-8 lg:w-1/2">
+                    <h3 class="text-lg md:text-2xl">Welcome to,</h3>
+                    <h1 class="text-4xl md:text-5xl">Tsukasa Ayatsuji</h1>
+                    <p class="text-base mt-2 md:text-xl">Personal Website</p>
+                </div>
+                <div id="hero-image" class="w-full lg:w-1/2">
+                    <img src="dist/img/Tsukasa.jpg" alt="Tsukasa Image" class="mx-auto w-56 rounded-full shadow-2xl md:w-72">
+                </div>
+                <p class="w-[80%] mt-8 mx-auto text-base lg:text-2xl lg:max-w-lg"><span class="text-dark font-bold">Tsukasa Ayatsuji</span> adalah waifuku, dia selamanya akan jadi waifuku. Pintar, menawan, dan tegas, bro... apa boleh bisa sesempurna ini💖</p>
+            </div>
+        </div>
+    </div>
+    <!-- Bagian add script -->
+    <script src="dist/script.js"></script>
+</body>
+</html>

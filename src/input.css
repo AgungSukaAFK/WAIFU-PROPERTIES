@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+#AOTSUKASA {
+    font-family: 'Dancing Script', cursive;
+}
+
+.hamburger-strip {
+    @apply block w-[30px] h-[3px] rounded-2xl bg-hamburger mb-2 transition duration-300 origin-left;
+}
+
+.my-1 a {
+    font-weight: 500;
+    color: darkslategray;
+}
+
+
+.active span:nth-child(1){
+    transform: rotate(45deg);
+}
+
+.active span:nth-child(2){
+    opacity: 0;
+}
+
+.active span:nth-child(3){
+    transform: rotate(-45deg);
+}
